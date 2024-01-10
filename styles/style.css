@@ -1,3 +1,58 @@
-h1{
-    color: red;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+.hero{
+    background-image: url(../images/diamond.jpg);
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+}
+.hero h1{
+    color: azure;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 60px;
+    font-family: cursive;
+    word-spacing: 20px;
+    letter-spacing: 20px;
+}
+.article{
+    width: 80% ;
+    /*margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    margin-bottom: 100px;
+    */
+    margin: 60px auto;
+    border-width: 15px;
+    border-color: yellow;
+    border-style: solid;
+    background-color: rgb(86, 142, 192);
+    padding: 60px;
+}
+
+.article h2 {
+    text-align: center;
+    font-size: 48px;
+    padding-bottom: 20px;
+    border-width: 2px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-color: yellow;
+    border-style: solid;
+    margin-bottom: 20px;
+}
+
+.article p{
+    font-size: 28px;
+    line-height: 2em;
+}
+
+.article p .imp{
+    font-size: 2em;
+    background-color: yellow;
 }
