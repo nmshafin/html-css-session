@@ -9,6 +9,8 @@
     background-position: top;
     background-size: cover;
     height: 100vh;
+    clip-path: polygon(50% 0%, 100% 0, 100% 85%, 50% 100%, 50% 100%, 0 85%, 0 0);
+
 }
 .hero h1{
     color: azure;
@@ -27,10 +29,8 @@
     margin-bottom: 100px;
     */
     margin: 60px auto;
-    border-width: 15px;
-    border-color: yellow;
-    border-style: solid;
-    background-color: rgb(86, 142, 192);
+    background: linear-gradient(45deg, pink,rgb(109, 109, 231));
+
     padding: 60px;
 }
 
@@ -56,6 +56,18 @@
     background-color: yellow;
 }
 
-#diamond-type{
+#diamond-images{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    /* flex-wrap: wrap; */
+}
 
+#diamond-images div{
+    min-width: 300px;
+    
+}
+
+#diamond-images img{
+    width: 100%;
 }
